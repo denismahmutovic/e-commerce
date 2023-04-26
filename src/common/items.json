@@ -2,64 +2,43 @@
   {
     "id": 1,
     "name": "Belo Meso",
-    "price": 1500,
+    "price": 200,
     "imgUrl": "https://lepaisrecna.mondo.rs/Picture/56718/jpeg/trik_iksusnih_kuvarica_ovako_se_pravilno_przi_pilece_belo_meso_video_230900445",
     "currency": "Din"
   },
   {
     "id": 2,
     "name": "Cevapi",
-    "price": 2000,
+    "price": 280,
     "imgUrl": "https://xdn.tf.rs//2021/04/20/cevapi-s-lukom-830x0.jpg",
     "currency": "Din"
   },
   {
     "id": 3,
-    "name": "Macbook Pro 14 M1 Pro 16GB/512GB",
+    "name": "Pizza",
     "price": 2200,
     "imgUrl": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=2000",
     "currency": "EUR"
   },
   {
     "id": 4,
-    "name": "Macbook Pro 16 M1 Pro 16GB/1TB",
+    "name": "Topli Sendic",
     "price": 3200,
-    "imgUrl": "https://istyle.hu/media/wysiwyg/HU/landing-pages/preselection/mbp-16-sg.jpeg",
-    "currency": "EUR"
+    "imgUrl": "https://static.alideda.com/wp-content/uploads/2017/01/topli-sendvic-min.jpg",
+    "currency": "Din"
   },
   {
     "id": 5,
-    "name": "Apple Watch Ultra",
+    "name": "Piroska",
     "price": 1100,
-    "imgUrl": "https://istyle.rs/pub/media/catalog/product/cache/image/400x400/beff4985b56e3afdbeabfc89641a4582/c/z/czcs_watchultra_cellular_q422_49mm_titanium_yellow_ocean_band_pdp_image_position-1_t_2_1.jpg",
-    "currency": "EUR"
+    "imgUrl": "https://img.restaurantguru.com/r5df-TIME-SQUARE-pizza-2022-06-1.jpg",
+    "currency": "Din"
   },
   {
     "id": 6,
-    "name": "AirPods (3. gen)",
+    "name": "Hambuger",
     "price": 2000,
-    "imgUrl": "https://istyle.rs/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/m/m/mme73_av2_24.jpg",
-    "currency": "EUR"
-  },
-  {
-    "id": 7,
-    "name": "Apple Watch Magnetic Fast Charger",
-    "price": 5.89,
-    "imgUrl": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/m/l/mlwj3.jpeg",
-    "currency": "EUR"
-  },
-  {
-    "id": 8,
-    "name": "iPad Pro M1 12,9",
-    "price": 5.89,
-    "imgUrl": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/m/h/mhr43hca_1_4.jpg",
-    "currency": "EUR"
-  },
-  {
-    "id": 9,
-    "name": "Apple Studio  ",
-    "price": 5.89,
-    "imgUrl": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/s/t/studio_display_pdp_image_position-1__wwen_1_1_1.jpg",
-    "currency": "EUR"
+    "imgUrl": "https://waytomonte.com/img/slider/9/1/8208/7e4fceb642493e340c4c1df3fc3f06ce_thumb.jpg",
+    "currency": "Din"
   }
 ]

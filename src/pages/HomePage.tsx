@@ -10,8 +10,8 @@ const HomePage = () => {
   return (
     <div>
       <img
-        className="w-full mt-2"
-        src="https://blog.daraz.pk/wp-content/uploads/2020/05/LIGHT-FOOD-BANNER.jpg"
+        className="w-full  h-[78vh]"
+        src="https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.15752-9/342889603_3852319168328145_2141419170586001210_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=YNjJnmMtbLEAX_g-zyn&_nc_ht=scontent.fbeg1-1.fna&oh=03_AdQB6D7XbZVcuMKbIRxHLJAK_ygXmA7rBDWvjC6TNnQinw&oe=6470BA54"
         alt=""
       />
 
