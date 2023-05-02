@@ -12,6 +12,7 @@ type ShoppingCart = {
 
 const ShoppingCartContext = React.createContext<ShoppingCart>({
   cartItems: [],
+
   setCartItems: () => {},
   addToCart: () => {},
   removeFromCard: () => {},
@@ -22,6 +23,7 @@ const ShoppingCartContext = React.createContext<ShoppingCart>({
 const ShoppingCartContextProvider = ({ children }: Context) => {
   const [cartItems, setCartItems] = useState<CartProduct[]>([]);
   console.log("cartItems", cartItems);
+
   const addToCart = (product: Product): void => {
     console.log("adasdasdasdTo cart");
     setCartItems((prevItems) => {

@@ -1,10 +1,15 @@
 import { any } from "prop-types";
 import React from "react";
 import { ITS } from "../utils/utils";
+import { ShoppingCartContext } from "../context/ShoppingCartContext";
+import { useContext } from "react";
+import Search from "../Search/Search";
 
 const ProductCard = ({ name, price, imgUrl, currency, onClick }: ITS) => {
+  const { addToCart } = useContext(ShoppingCartContext);
+
   return (
-    <div className="flex items-center justify-center min-h-screen from-[#F9F5F3] via-[#F9F5F3] to-[#F9F5F3] bg-gradient-to-br px-2">
+    <div className="flex items-center justify-center min-w-max ml-3 mt-1 from-[#F9F5F3] via-[#F9F5F3] to-[#F9F5F3] bg-gradient-to-br px-2">
       <div className="w-full max-w-md bg-white rounded-3xl shadow-xl overflow-hidden">
         <div className="max-w-md mx-auto">
           <div>
