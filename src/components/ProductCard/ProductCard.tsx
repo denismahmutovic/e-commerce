@@ -15,6 +15,7 @@ const ProductCard = ({ name, price, imgUrl, currency, onClick }: ITS) => {
           <div>
             <img src={imgUrl} />
           </div>
+
           <div className="p-4 sm:p-6">
             <p className="font-bold text-gray-700 text-[22px] leading-7 mb-1">
               {name}

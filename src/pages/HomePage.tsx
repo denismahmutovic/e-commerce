@@ -16,7 +16,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <input
+      {/* <input
         type="text"
         id="default-search"
         className="block p-4 pl-10  text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-70 h-9 mt-3 z-40"
@@ -24,7 +24,7 @@ const HomePage = () => {
         autoComplete="off"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-      />
+      /> */}
       <img
         className="w-full  h-[78vh]"
         src="https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.15752-9/342889603_3852319168328145_2141419170586001210_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=YNjJnmMtbLEAX_g-zyn&_nc_ht=scontent.fbeg1-1.fna&oh=03_AdQB6D7XbZVcuMKbIRxHLJAK_ygXmA7rBDWvjC6TNnQinw&oe=6470BA54"

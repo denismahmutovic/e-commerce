@@ -2,6 +2,7 @@ import React from "react";
 import { ShoppingCartContext } from "../components/context/ShoppingCartContext";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const CartPage = () => {
   const { cartItems, removeFromCard, increaseQuantity, decreaseQuantity } =
@@ -39,6 +40,7 @@ const CartPage = () => {
               <div className="flex-col ml-8 justify-center w-32">
                 <h2 className="font-bold">{product.name}</h2>
               </div>
+
               <div className="flex justify-center items-center my-3 w-64">
                 <p className="text-bold">{product.price} $</p>
                 <button

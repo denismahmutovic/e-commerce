@@ -24,6 +24,8 @@ const ShoppingCartContextProvider = ({ children }: Context) => {
   const [cartItems, setCartItems] = useState<CartProduct[]>([]);
   console.log("cartItems", cartItems);
 
+  const [search, setSearch] = useState<string>("");
+
   const addToCart = (product: Product): void => {
     console.log("adasdasdasdTo cart");
     setCartItems((prevItems) => {
